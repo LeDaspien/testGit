@@ -11,7 +11,11 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
+    @IBOutlet weak var button: UIButton!
+    
+    @IBAction func buttonPressed(_ sender: Any) {
+        print("test")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
